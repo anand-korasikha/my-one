@@ -2,7 +2,7 @@ import React from 'react'
 import { Link} from 'react-scroll'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import Logo from '../../images/logo.png'
-import cv from '/Templates/Portfolio/downloadable/elito-dark/src/images/ANAND Resume (1).pdf'
+import cv from '../../images/ANAND Resume (1).pdf'
 
 
 const Header = (props) => {
