@@ -24,7 +24,7 @@ const ContactArea = (props) => {
                                     <div className="wpo-contact-info">
                                        
                                         <div className="info-item">
-                                            <h2>anandkorasikha@gmail.com</h2>
+                                            <h2><a href="mailto:anandkorasikha@gmail.com" style={{color: 'inherit', textDecoration: 'none'}}>anandkorasikha@gmail.com</a></h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <i className="fi flaticon-mail"></i>
@@ -35,7 +35,7 @@ const ContactArea = (props) => {
                                             </div>
                                         </div>
                                         <div className="info-item">
-                                            <h2>+91 9182312805</h2>
+                                            <h2><a href="tel:+919182312805" style={{color: 'inherit', textDecoration: 'none'}}>+91 9182312805</a></h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <i className="fi flaticon-phone-call"></i>
