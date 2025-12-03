@@ -2175,10 +2175,15 @@ img {
 }
 @media (max-width: 767px) {
   .static-hero {
-    height: 850px;
+    height: 900px;
   }
 }
 @media (max-width: 500px) {
+  .static-hero {
+    height: 850px;
+  }
+}
+@media (max-width: 400px) {
   .static-hero {
     height: 800px;
   }
@@ -2379,8 +2384,9 @@ img {
 }
 @media (max-width: 767px) {
   .static-hero .static-hero-right {
-    top: 50%;
-    position: relative;
+    top: auto;
+    bottom: 50px;
+    position: absolute;
     width: 400px;
     height: 400px;
     left: 50%;
@@ -2390,9 +2396,16 @@ img {
 }
 @media (max-width: 575px) {
   .static-hero .static-hero-right {
-    top: 56%;
-    width: 300px;
-    height: 300px;
+    bottom: 30px;
+    width: 280px;
+    height: 280px;
+  }
+}
+@media (max-width: 400px) {
+  .static-hero .static-hero-right {
+    bottom: 20px;
+    width: 250px;
+    height: 250px;
   }
 }
 .static-hero .static-hero-right .icon-1,
