@@ -1,7 +1,7 @@
 import React from "react";
 import { Link} from 'react-scroll'
 
-import hero1 from '../../images/slider/1.jpg'
+import hero1 from '../../images/slider/Adobe Express - file (13).jpg'
 
 import icon1 from '../../images/icon/photoshop.svg'
 import icon2 from '../../images/icon/diamond.svg'
